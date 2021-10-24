@@ -207,7 +207,7 @@
 		<Ship_Class>artillery</Ship_Class>
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Dark_Trooper_PhaseI, Dark_Trooper_PhaseI, Dark_Trooper_PhaseI</Company_Units>
+		<Company_Units>Dark_Trooper_PhaseI, Dark_Trooper_PhaseI, Dark_Trooper_PhaseI, Dark_Trooper_PhaseI, Dark_Trooper_PhaseI, Dark_Trooper_PhaseI</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
@@ -496,7 +496,7 @@
 		<Is_Escort>no</Is_Escort>
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Dark_Trooper_PhaseII Dark_Trooper_PhaseII</Company_Units>
+		<Company_Units>Dark_Trooper_PhaseII Dark_Trooper_PhaseII Dark_Trooper_PhaseII Dark_Trooper_PhaseII</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
@@ -818,7 +818,7 @@
 		<Ship_Class>artillery</Ship_Class>
 		
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Dark_Trooper_PhaseIII</Company_Units>
+		<Company_Units>Dark_Trooper_PhaseIII Dark_Trooper_PhaseIII</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 
 		<SFXEvent_Build_Started>EHD_Build_Troops</SFXEvent_Build_Started>
