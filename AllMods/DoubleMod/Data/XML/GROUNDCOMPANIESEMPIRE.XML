@@ -25,7 +25,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank</Company_Units>
+		<Company_Units>M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank, M1_Repulsor_Tank</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_1-m_med_repulsor_tank.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -90,7 +90,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AT_AA_Walker, AT_AA_Walker, AT_AA_Walker</Company_Units>
+		<Company_Units>AT_AA_Walker, AT_AA_Walker, AT_AA_Walker, AT_AA_Walker, AT_AA_Walker, AT_AA_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_ataa.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -155,7 +155,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>walker</Ship_Class>
 		<Company_Transport_Unit>Imperial_ATAT_Barge</Company_Transport_Unit>
-		<Company_Units>AT_AT_Walker</Company_Units>
+		<Company_Units>AT_AT_Walker, AT_AT_Walker</Company_Units>
 		<Icon_Name>i_button_atat.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT-AT.ALO</GUI_Model_Name>
 		<GUI_Distance>300</GUI_Distance>
@@ -222,7 +222,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
+		<Company_Units>AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_atst.tga</Icon_Name>
 		<GUI_Model_Name>EV_AT-ST.ALO</GUI_Model_Name>
@@ -261,7 +261,7 @@
 	
 	<GroundCompany Name="Imperial_Heavy_Scout_Squad_Small">
 		<Variant_Of_Existing_Type>Imperial_Heavy_Scout_Squad</Variant_Of_Existing_Type>
-		<Company_Units> AT_ST_Walker, AT_ST_Walker, AT_ST_Walker </Company_Units>
+		<Company_Units> AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
@@ -293,7 +293,7 @@
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>artillery</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>SPMAT_Walker, SPMAT_Walker, SPMAT_Walker</Company_Units>
+		<Company_Units>SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker, SPMAT_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_spha_t.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -355,7 +355,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>tank</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler</Company_Units>
+		<Company_Units>TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_tie_crawler.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -393,7 +393,7 @@
 
 	<GroundCompany Name="Imperial_Anti_Infantry_Brigade_Small">
 		<Variant_Of_Existing_Type>Imperial_Anti_Infantry_Brigade</Variant_Of_Existing_Type>
-		<Company_Units> TIE_Crawler, TIE_Crawler, TIE_Crawler </Company_Units>
+		<Company_Units> TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler, TIE_Crawler</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
@@ -433,7 +433,7 @@
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
 		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
         <!-- AI  Changed to 18 troopers in squads of 9 -->
-		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>
@@ -473,7 +473,7 @@
 	
 	<GroundCompany Name="Imperial_Medium_Stormtrooper_Squad">
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
-		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
@@ -482,7 +482,7 @@
 
 	<GroundCompany Name="Imperial_Mini_Stormtrooper_Squad">
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
-		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
@@ -491,7 +491,7 @@
 	
 	<GroundCompany Name="Veers_Deployed_Imperial_Stormtrooper_Squad">
 		<Variant_Of_Existing_Type>Imperial_Stormtrooper_Squad</Variant_Of_Existing_Type>
-		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units> Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper,Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Max_Squad_Size> 9 </Max_Squad_Size>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
@@ -526,7 +526,7 @@
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
-		<Company_Units>Scout_Trooper, Scout_Trooper</Company_Units>
+		<Company_Units>Scout_Trooper, Scout_Trooper, Scout_Trooper, Scout_Trooper</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_scout_trooper.tga</Icon_Name>
 		<GUI_Model_Name>EV_Bike.ALO</GUI_Model_Name>
@@ -582,7 +582,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<Score_Cost_Credits>36</Score_Cost_Credits>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -615,7 +615,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
 		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
 		<Score_Cost_Credits>48</Score_Cost_Credits>
 		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
@@ -675,7 +675,7 @@
 		<Variant_Of_Existing_Type>Rebel_Pod_Walker_Company</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> Rebel_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> T4B_Tank T2B_Tank UC_Rebel_Buildable_Anti_Vehicle_Turret </Encyclopedia_Vulnerable_To>
-		<Company_Units>Pod_Walker_Empire, Pod_Walker_Empire</Company_Units>
+		<Company_Units>Pod_Walker_Empire, Pod_Walker_Empire, Pod_Walker_Empire, Pod_Walker_Empire</Company_Units>
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
