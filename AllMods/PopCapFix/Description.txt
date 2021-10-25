@@ -1,0 +1,1 @@
+When starting a land invasion, you are noted for using more population than you actually are. This mod fixes this and only this bug. It can be combined with other mods, either by copying GAMECONSTANTS.XML into a mod that does not have the file, or out commenting the line <Allow_Reinforcement_Percentage_Normalized> in the file.
